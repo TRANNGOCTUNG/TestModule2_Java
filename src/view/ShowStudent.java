@@ -152,7 +152,9 @@ public class ShowStudent {
                      case 2 ->{
                          studentManager.display();
                      }
-                     case 3 -> deleteStudent();
+                     case 3 -> {
+
+                     }
 
                      default -> System.out.println("Does not exist");
              }
